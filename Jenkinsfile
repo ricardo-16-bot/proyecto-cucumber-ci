@@ -18,6 +18,12 @@ pipeline {
             }
         }
 
+        stage('Ver Java') {
+                    steps {
+                        sh 'java -version'
+                    }
+                }
+
         stage('Instalar dependencias') {
             steps {
                 echo 'Instalando dependencias...'
