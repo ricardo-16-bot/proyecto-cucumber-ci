@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.example.runners.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 35.42 s <<< FAILURE! - in com.example.runners.RunnerTest
+Add and Remove Elements.Añadir un nuevo elemento dinámicamente  Time elapsed: 16.092 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'El usuario está en la página de Add/Remove Elements' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("El usuario está en la página de Add\\/Remove Elements")
+public void el_usuario_está_en_la_página_de_add_remove_elements() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Add and Remove Elements.Eliminar un elemento dinámicamente  Time elapsed: 4.344 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'El usuario está en la página de Add/Remove Elements' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("El usuario está en la página de Add\\/Remove Elements")
+public void el_usuario_está_en_la_página_de_add_remove_elements() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

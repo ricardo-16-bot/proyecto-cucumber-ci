@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="34.893" tests="4" skipped="0" failures="2" errors="0">
+<testcase classname="Add and Remove Elements" name="Añadir un nuevo elemento dinámicamente" time="15.743">
+<failure/>
+<system-out><![CDATA[
+Given El usuario está en la página de Add/Remove Elements...................undefined
+When Hace clic en el botón "Add Element"....................................skipped
+Then Se debe mostrar un botón "Delete"......................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Add and Remove Elements" name="Eliminar un elemento dinámicamente" time="4.309">
+<failure/>
+<system-out><![CDATA[
+Given El usuario está en la página de Add/Remove Elements...................undefined
+And Hace clic en el botón "Add Element".....................................skipped
+When Hace clic en el botón "Delete".........................................skipped
+Then El botón "Delete" ya no debe estar visible.............................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Demo" name="Hello" time="4.21">
+<system-out><![CDATA[
+Given I print hello.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Inicio de sesión" name="Inicio de sesión exitoso con credenciales válidas" time="9.873">
+<system-out><![CDATA[
+Given El usuario navega a la página de login................................passed
+When Ingresa el nombre de usuario "tomsmith"................................passed
+And Ingresa la contraseña "SuperSecretPassword!"............................passed
+And Hace clic en el botón de login..........................................passed
+Then El sistema debe mostrar el mensaje "You logged into a secure area!"....passed
+]]></system-out>
+</testcase>
+</testsuite>

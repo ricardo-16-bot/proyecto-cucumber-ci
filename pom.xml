@@ -65,7 +65,7 @@
                 <version>3.0.0-M9</version>
                 <configuration>
                     <includes>
-                        <include>**/RunCucumberTest.java</include>  </includes>
+                        <include>**/RunnerTest.java</include>  </includes>
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
             </plugin>
@@ -95,8 +95,8 @@
                     </goals>
                     <configuration>
                         <projectName>QA Automation Project</projectName>
-                        <outputDirectory>${project.build.directory}/target/cucumber-reports</outputDirectory>
-                        <inputJson>${project.build.directory}/target/cucumber.json</inputJson>
+                        <outputDirectory>${project.build.directory}/cucumber-reports</outputDirectory>
+                        <inputJson>${project.build.directory}/cucumber.json</inputJson>
                     </configuration>
                 </execution>
             </executions>

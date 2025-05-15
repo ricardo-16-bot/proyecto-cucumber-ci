@@ -1,0 +1,6 @@
+com/example/steps/LoginSteps.class
+com/example/steps/AddRemoveElementsSteps.class
+com/example/steps/DemoSteps.class
+com/example/pages/LoginPage.class
+com/example/runners/RunnerTest.class
+com/example/pages/AddRemoveElementsPage.class
