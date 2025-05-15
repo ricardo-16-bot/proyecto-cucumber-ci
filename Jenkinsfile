@@ -51,7 +51,10 @@ pipeline {
                 publishHTML([
                     reportDir: 'target/cucumber-reports',
                     reportFiles: 'report.html',
-                    reportName: 'Reporte de Pruebas Cucumber'
+                    reportName: 'Reporte de Pruebas Cucumber',
+                    allowMissing: false,
+                    keepAll: true,
+                    alwaysLinkToLastBuild: true
                 ])
             }
         }
